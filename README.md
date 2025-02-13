@@ -1,5 +1,10 @@
 # AGE
 
+# Environment
+- Python 3.8.19
+- pytorch 1.8.1 + cu111
+
+
 ## Table of Contents
   * [Getting Started](#getting-started)
     + [Prerequisites](#prerequisites)
