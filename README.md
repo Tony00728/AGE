@@ -40,7 +40,7 @@ Please download the pretrained aging model from the following links.
 
 | Path | Description
 | :--- | :----------
-|[AGE]([https://drive.google.com/file/d/1XpjQHfivo2eQg2Cj5ZjmIS6v2rBpXD0G/view?usp=drive_link])  | .
+|[AGE]|[(https://drive.google.com/file/d/1XpjQHfivo2eQg2Cj5ZjmIS6v2rBpXD0G/view?usp=drive_link) ] | .
 
 download:
 ```
