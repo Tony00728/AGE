@@ -170,25 +170,7 @@ test options passed to the inference script.
 - By default, the images will be saved at resolution of 1024x1024, the original output size of StyleGAN. 
     - If you wish to save outputs resized to resolutions of 256x256, you can do so by adding the flag `--resize_outputs`.
 
-### Side-by-Side Inference 
-The above inference script will save each aging result in a different sub-directory for each target age. Sometimes, 
-however, it is more convenient to save all aging results of a given input side-by-side like the following: 
 
-<p align="center">
-<img src="docs/866.jpg" width="800px"/>
-</p>
-
-To do so, we provide a script `inference_side_by_side.py` that works in a similar manner as the regular inference script: 
-```
-python scripts/inference_side_by_side.py \
---exp_dir=/path/to/experiment \
---checkpoint_path=experiment/checkpoints/best_model.pt \
---data_path=/path/to/test_data \
---test_batch_size=4 \
---test_workers=4 \
---target_age=0,10,20,30,40,50,60,70,80
-```
-Here, all aging results 0,10,...,80 will be save side-by-side with the original input image.
 
 ## Repository structure
 | Path | Description <img width=200>
